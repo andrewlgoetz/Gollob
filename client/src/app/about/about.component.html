@@ -1,0 +1,28 @@
+<div class="about-page">
+    <!-- Founder Section -->
+    <section class="founder-section">
+      <h2>About the Founders</h2>
+      <div class="founder">
+        <img [src]="founder.image" [alt]="founder.name" class="founder-image" />
+        <div class="founder-bio">
+          <h3>{{ founder.name }}</h3>
+          <p>{{ founder.bio }}</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Team Members Section -->
+    <section class="team-section">
+      <h2>The Team</h2>
+      <div class="team-grid">
+        <mat-card *ngFor="let member of teamMembers" class="team-card">
+          <img mat-card-image [src]="member.image" [alt]="member.name" />
+          <mat-card-content>
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.bio }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </section>
+  </div>
+  

@@ -1,0 +1,31 @@
+/* src/app/core/navbar/navbar.component.css */
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1976d2; /* Material primary blue */
+  color: white;
+  padding: 0 16px;
+  height: 64px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar links */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Logo (left-aligned) */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

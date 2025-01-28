@@ -1,0 +1,21 @@
+/* src/app/showcase/showcase.component.css */
+
+/* Grid container */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 16px; /* Space between grid items */
+  padding: 16px;
+}
+
+/* Grid items (cards) */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 200px; /* Set consistent image height */
+  object-fit: cover; /* Crop images to fill the space */
+  border-radius: 4px;
+}

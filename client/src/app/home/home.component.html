@@ -1,3 +1,29 @@
-<!-- src/app/home/home.component.html -->
-<h2>Welcome to Gollob & co.</h2>
-<p>We provide top-notch heating, ventilation, and air conditioning solutions.</p>
+<div class="home-page">
+    <!-- Full-screen title section -->
+    <section class="hero">
+        <h1>Gollob & co.</h1>
+      <p>Your Comfort, Our Priority</p>
+      <br>
+      <p class="phone">Call us today: {{ phoneNumber }}</p>
+    </section>
+  
+    <!-- Review Section -->
+    <section class="review">
+      <h2>What Our Customers Say</h2>
+      <div class="stars">
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+        <span class="material-icons">star</span>
+      </div>      
+      <p class="review-text">"{{ review.text }}"</p>
+    </section>
+  
+    <!-- Description Section -->
+    <section class="description">
+      <h2>Who We Are</h2>
+      <p>{{ description }}</p>
+    </section>
+  </div>
+  

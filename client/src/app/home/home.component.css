@@ -1,0 +1,81 @@
+/* Full-page layout */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 16px;
+    text-align: center;
+    background: linear-gradient(to bottom, #1976d2, #f5f5f5); /* Gradient background */
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    margin-top: 48px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem; /* Large title */
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .hero .phone {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Review Section */
+  .review {
+    margin-top: 48px;
+    background: #fff;
+    color: #333;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .review h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    color: #ffb400; /* Gold color for stars */
+  }
+  
+  .review-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 16px;
+  }
+  
+  /* Description Section */
+  .description {
+    margin-top: 48px;
+    background: #fff;
+    color: #333;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  

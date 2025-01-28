@@ -1,10 +1,13 @@
-<div class="grid">
-    <mat-card *ngFor="let image of images" class="grid-item">
-      <img mat-card-image [src]="image.src" [alt]="image.title" />
-      <mat-card-content>
-        <h3>{{ image.title }}</h3>
-        <p>{{ image.description }}</p>
-      </mat-card-content>
-    </mat-card>
-  </div>
-  
+<h2 class="showcase-title">Our Services</h2>
+<div class="carousel">
+  <mat-card *ngFor="let image of images" class="carousel-item">
+    <img mat-card-image [src]="image.src" [alt]="image.title" />
+    <mat-card-content>
+      <h3>{{ image.title }}</h3>
+      <p>{{ image.description }}</p>
+    </mat-card-content>
+    <mat-card-footer>
+      <p class="caption"> {{ image.title }}</p>
+    </mat-card-footer>
+  </mat-card>
+</div>

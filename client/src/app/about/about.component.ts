@@ -23,13 +23,13 @@ export class AboutComponent {
       bio: 'Technology and Operations',
     },
     {
-      name: 'Name Name',
+      name: 'Justin White',
       image: 'assets/team2.jpeg',
       bio: 'Specialist in ventilation systems and air quality.',
     },
     {
-      name: 'Name Name',
-      image: 'assets/team3.jpg',
+      name: 'Daniel Lenarduzzi',
+      image: 'assets/team3.jpeg',
       bio: 'Around the clock service, and customer support.',
     },
   ];
